@@ -53,3 +53,35 @@ GIVEN a book search engine:
   THEN that book is deleted from my saved books list.
 - WHEN I click on the Logout button,
   THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button.
+
+## License
+
+This web applicaiton licensed under the MIT license
+
+## Technologies
+
+Popular technnologies/libraries/frameworks used were:
+
+- bootstrap
+- jwt-decode
+- react
+- mongoose
+- jsonwebtoken
+- express
+- bcyrpt
+
+## Usage
+
+To run th web application, install the packages at the root, client and server level. Run the build command to add the dist directory and finally, from the root directory, start the application.
+
+1. From the root run `npm i`
+2. Then, `npm run build`
+3. FInally, `npm run start`
+
+## Link
+
+Press the [link](searchabook.netlify.app) to deploy the website
+
+## Questions
+
+If there are any questions or doubt please take to my [GitHub](https://github.com/jjenkz/book-search-engine) for the code or personally [email](mailto:j_jenkins1@u.pacific.edu)
